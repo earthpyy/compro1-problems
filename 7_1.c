@@ -6,7 +6,6 @@ int main()
     int i;
     printf(" *** Show Title Case. ***\nEnter a line of characters : ");
     scanf("%[^\n]", str);
-    printf("output :\n");
 
     for (i = 0; str[i] != '\0'; i++)
     {
@@ -27,7 +26,7 @@ int main()
         }
     }
 
-    printf("%s\n", str);
+    printf("output :\n%s\n", str);
 
     return 0;
 }
